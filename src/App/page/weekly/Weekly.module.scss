@@ -1,0 +1,83 @@
+.Daylist{
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 15px;
+}
+.tableCon{
+  max-width: 970px;
+  width: 100%;
+  overflow-x: auto;
+}
+.container{
+  margin-top: 50px;
+}
+.container h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.tableHead{
+  border-bottom: 5px solid rgb(17, 43, 127);
+  background-color: rgba(243, 59, 35, 0.73);
+  color: white;
+}
+.tableHead:nth-of-type(2n){
+  border-bottom: 5px solid rgb(2, 128, 113);
+  background-color: rgba(246, 160, 18, 0.84);
+}
+
+.table{
+  border-collapse: collapse;
+  border-left: 5px solid rgba(70, 29, 1, 0.83);
+  border-right: 5px solid rgba(70, 28, 1, 0.83);
+  border-top: 5px solid rgba(70, 28, 1, 0.83);
+  overflow-x: auto;
+}
+.tableHead td{
+  font-size: 21px;
+  vertical-align: center;
+}
+.tableHead td:nth-child(1){
+  font-size: 23px;
+  margin-top: 15px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-right: 6px solid black;
+}
+.tableName{
+  border-bottom: 5px solid rgb(255, 101, 2);
+  background-color: rgb(255, 255, 255);
+  color: gray;
+  border-top: 5px solid rgb(255, 101, 2);
+  border-right: 5px solid rgb(255, 101,2);
+  border-left: 5px solid rgb(255, 101,2);
+}
+.tableDate{
+  color: black;
+  padding: 10px;
+  font-size: 23px;
+  font-weight: 500;
+  border-right: 6px solid black;
+}
+th, td{
+  min-width: 230px;
+}
+.thumbHorizontal{
+  background-image: linear-gradient(to right bottom, #ff6402, #fd8700, #f6a600, #ecc300, #dede12);
+  min-height: 50px;
+}
+.TrackH{
+  width: 100%;
+  bottom: 0;
+  background-color: #902fff;
+}
+.Vertical{
+  background-image: linear-gradient(to left bottom, #ff09bf, #ff0098, #ff0073, #fa0050, #eb122f);
+}
+.thumbVertical{
+  right: 0;
+  min-height: 680px;
+}

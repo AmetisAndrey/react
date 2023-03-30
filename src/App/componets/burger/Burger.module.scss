@@ -1,0 +1,27 @@
+@import '../../../styles/variable';
+
+
+.burger_cont{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.burger_icon{
+  font-size: 40px !important;
+  padding: 5px;
+  color: $colorMainText;
+  border-radius: 50%;
+  @include bgBoxShadow;
+}
+.menu{
+  ul{
+    color: $colorMainText;
+    @include bgBoxShadow;
+    a{
+      color: $colorMainText;
+      text-decoration: none;
+     }
+  }
+
+
+}

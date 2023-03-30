@@ -1,0 +1,6 @@
+$colorWhite: white;
+$colorMainText:rgb(197, 180, 105);
+@mixin bgBoxShadow{
+  background: rgb(255, 246, 203) !important;
+  box-shadow: 0px 0px 5px rgba(109, 96, 52, 0.712) inset !important;
+}
