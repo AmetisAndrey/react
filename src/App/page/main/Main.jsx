@@ -50,7 +50,7 @@ const Main = () => {
                      <div className={style.SliderWrap}>
                          <h3>Температура</h3>
                      <div className={style.SliderText}>
-                       <p>текущая: {city.main.temp}</p>Д
+                       <p>текущая: {city.main.temp}</p>
                        <p>ощущается как: {city.main.feels_like}</p>
                        <p>минимальная: {city.main.temp_min}</p>
                        <p>максимальная: {city.main.temp_max}</p>
